@@ -152,16 +152,6 @@ engine.stop();
 3. **Memory Management**: Uses `std::shared_ptr` for orders (could be optimized with custom allocators)
 4. **Event Processing**: Asynchronous event queue to decouple order submission from matching
 
-## Future Enhancements
-
-- [ ] Multi-symbol support with symbol sharding
-- [ ] Custom memory allocators
-- [ ] FIX protocol adapter
-- [ ] Order persistence and recovery
-- [ ] Risk checks and position limits
-- [ ] Iceberg orders
-- [ ] Stop orders
-
 ## License
 
 MIT License - feel free to use this as a portfolio project or learning resource.
